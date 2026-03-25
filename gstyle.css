@@ -31,6 +31,13 @@ a:link{
     text-decoration: none;
 }
 
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 18vh;
+    gap: 5vw;
+}
 
 @font-face {
     font-family: myfont1;

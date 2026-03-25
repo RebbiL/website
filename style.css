@@ -1,22 +1,29 @@
 body{
     background-color: rgb(69, 8, 8);
 }
-#home{
+#überschriften{
     display: flex;
-    justify-content: center;
-    align-items: left;
-    padding: 1vw;
-    height: 20vw;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 5vw;
+    height: 10vw;
+    line-height: 10vw;
 }
 
-#überschriften{
+#überschriften img{
+    display: block;
+    height: auto;
+    width: 10vw;
+}
+#überschriften p{
+
     font-family: myfont1;
     color: #F9F9F9 ;
     font-size: 4vw;
-    padding: 5vw;
-    text-align: right ;
-    
 }
+
+
+
 @font-face {
     font-family: myfont1;
     src: url(./fonts/schrift1.ttf);

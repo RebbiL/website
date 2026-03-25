@@ -2,7 +2,22 @@ body{
     background-color: rgb(69, 8, 8);
 }
 #home{
-    align-items: lef;
+    display: flex;
+    justify-content: center;
+    align-items: left;
     padding: 1vw;
-    width: 10vw;
+    height: 20vw;
+}
+
+#überschriften{
+    font-family: myfont1;
+    color: #F9F9F9 ;
+    font-size: 4vw;
+    padding: 5vw;
+    text-align: right ;
+    
+}
+@font-face {
+    font-family: myfont1;
+    src: url(./fonts/schrift1.ttf);
 }

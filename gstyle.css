@@ -24,20 +24,12 @@ body{
     color: #F9F9F9 ;
     font-size: 4vw;
     text-align: right;
-    
+
 
 }
 a:link{
-    color: #F9F9F9 ;
     text-decoration: none;
 }
-
-
-a:visited{
-    color: black;
-    text-decoration: underline;
-}
-
 
 
 @font-face {

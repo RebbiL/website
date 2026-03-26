@@ -1,3 +1,36 @@
+body{
+    background-color: rgb(69, 8, 8);
+}
+#überschriften{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    gap: 5vw;
+    height: 10vw;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+#überschriften img{
+    display: block;
+    height: auto;
+    width: 10vw;
+}
+
+#überschriften p{
+    margin-top: 2vh;
+    font-family: myfont1;
+    color: #F9F9F9 ;
+    font-size: 4vw;
+    text-align: right;
+
+
+}
+a:link{
+    text-decoration: none;
+}
 
 body{
     overflow: hidden;

@@ -30,22 +30,27 @@ a:link{
     text-decoration: none;
 }
 
-#Absatz{
-    display: wrap;
-    justify-content: top ;
-    align-items: flex-start ;
-    margin-top: 18vh;
-    gap: 2vw;
+.Absatz{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 15vh;
+    gap: 5vw;
 }
 
-#Absatz p {
+.Absatz p {
+    display:flex;
+    flex-direction: column;
     font-family: CraftyGirls;
     color: #F9F9F9 ;
-    font-size: 2vw;
+    font-size: 2.8vw;
+    
 }
 
-#Absatz img{
-    width: 20vw;
+
+
+.Absatz img{
+    margin-top: 6vh;
+    width: 40vw;
 }
 
 @font-face {

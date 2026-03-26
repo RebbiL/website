@@ -24,17 +24,36 @@ body{
     font-family: myfont1;
     color: #F9F9F9 ;
     font-size: 4vw;
-    text-align: right;
-
 
 }
 a:link{
     text-decoration: none;
 }
 
+#Absatz{
+    display: wrap;
+    justify-content: top ;
+    align-items: flex-start ;
+    margin-top: 18vh;
+    gap: 2vw;
+}
 
+#Absatz p {
+    font-family: CraftyGirls;
+    color: #F9F9F9 ;
+    font-size: 2vw;
+}
+
+#Absatz img{
+    width: 20vw;
+}
 
 @font-face {
     font-family: myfont1;
     src: url(./fonts/schrift1.ttf);
+}
+
+@font-face {
+    font-family: CraftyGirls;
+    src: url(./fonts/CraftyGirls-Regular.ttf);
 }

@@ -10,6 +10,7 @@ body{
     height: 10vw;
     position: fixed;
     z-index: 10;
+    top: 0;
 }
 
 #überschriften img{
@@ -34,9 +35,14 @@ a:link{
 .galerie {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
     margin-top: 18vh;
-    gap: 5vw;
+    /*align-items: center;
+    
+    width: 10vw;*/
+}
+.galerie img{
+    width: 30vw;
+    margin: 1vw;
 }
 
 @font-face {

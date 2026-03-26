@@ -13,13 +13,20 @@ const frameElement = document.getElementById('frame');
 
 // Function to update frame based on position (either mouse or touch)
 function updateFrame(positionX) {
-    const windowWidth = window.innerWidth;
+    const rect = frameElement.getBoundingClientRect();
+
+    if(positionX < rect.left || positionX > rect.right) return;
+
+    const relativeX = positionX-rect.left;
+    const width = rect.width;
 
     // Map position (mouse or touch) to frame index
-    const frameIndex = Math.floor((positionX / windowWidth) * (endFrame - startFrame + 1));
+    const frameIndex = Math.floor((relativeX / width) * frames.length);
+    const clampedIndex = Math.min(frameIndex,frames.length-1);
+
 
     // Display the corresponding frame
-    frameElement.src = frames[Math.min(frameIndex, endFrame - startFrame)].src;
+    frameElement.src = frames[clampedIndex].src;
 }
 
 // Event listener for mouse movement (desktop)

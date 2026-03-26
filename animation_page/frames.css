@@ -52,3 +52,8 @@ body{
     height:100vh;
 
 }
+
+@font-face {
+    font-family: myfont1;
+    src: url(../fonts/schrift1.ttf);
+}

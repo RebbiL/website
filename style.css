@@ -39,6 +39,12 @@ a:visited{
     text-decoration: underline;
 }
 
+#home img{
+    height: 70vh;
+    margin-top: 18vh;
+    align-items: center;
+}
+
 @font-face {
     font-family: myfont1;
     src: url(./fonts/schrift1.ttf);

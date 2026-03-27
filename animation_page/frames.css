@@ -17,16 +17,14 @@ body{
     display: block;
     height: auto;
     width: 10vw;
+    transition: transform 0.5s ease;
+}
+#überschriften a{
+    transition: transform 0.3s ease;
 }
 
-#überschriften p{
-    margin-top: 2vh;
-    font-family: myfont1;
-    color: #F9F9F9 ;
-    font-size: 4vw;
-    text-align: right;
-
-
+a:hover{
+    transform: scale(1.1);
 }
 a:link{
     text-decoration: none;

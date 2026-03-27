@@ -17,6 +17,7 @@ body{
     display: block;
     height: auto;
     width: 10vw;
+    transition: transform 0.5s ease; 
 }
 
 #überschriften p{
@@ -24,23 +25,28 @@ body{
     font-family: myfont1;
     color: #F9F9F9 ;
     font-size: 4vw;
-    text-align: right;
-    
-
+    text-align: right;  
+      
 }
+#überschriften a{
+    transition: transform 0.3s ease;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+img.hover{
+    transform: ;
+}
+
 a:link{
     color: #F9F9F9 ;
     text-decoration: none;
 }
 
 
-a:visited{
-    color: black;
-    text-decoration: underline;
-}
-
 #home img{
-    height: 70vh;
+    width: 98vw;
     margin-top: 18vh;
     align-items: center;
 }

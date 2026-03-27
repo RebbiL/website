@@ -1,5 +1,6 @@
 body{
     background-color: rgb(69, 8, 8);
+    cursor: url("./images/cursor.png"), auto;
 }
 #überschriften{
     display: flex;

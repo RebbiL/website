@@ -1,6 +1,6 @@
 body{
     background-color: rgb(69, 8, 8);
-    cursor: url("./images/cursor.png"), auto;
+    cursor: url(./images/cursorl.png), auto;
 }
 #überschriften{
     display: flex;
@@ -31,6 +31,7 @@ body{
 }
 #überschriften a{
     transition: transform 0.3s ease;
+    cursor: url(./images/cursor.png), auto;
 }
 
 a:hover{
